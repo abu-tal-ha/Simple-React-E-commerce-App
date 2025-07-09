@@ -103,7 +103,8 @@ const products = [
   {
     id: 11,
     title: "Stainless Steel Travel Mug",
-    description: "Keeps drinks hot or cold for hours.",
+    description:
+      "Enjoy your beverages at the perfect temperature—hot or cold—for hours.",
     category: "Home",
     price: 22.49,
     originalPrice: 30.0,
@@ -143,7 +144,7 @@ const products = [
   {
     id: 15,
     title: "Women’s Sunglasses",
-    description: "UV‑protected stylish shades.",
+    description: "UV‑protected stylish shades that blend fashion and function.",
     category: "Accessories",
     price: 34.99,
     originalPrice: 50.0,
@@ -203,7 +204,8 @@ const products = [
   {
     id: 27,
     title: "Stainless Steel Knife Set",
-    description: "10‑piece kitchen knife block set.",
+    description:
+      "10‑piece kitchen knife block set for all your slicing, dicing, and chopping needs.",
     category: "Home",
     price: 59.99,
     originalPrice: 80.0,

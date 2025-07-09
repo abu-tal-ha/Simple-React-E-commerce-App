@@ -152,7 +152,7 @@ function ProductCard() {
                   <div className="h-full border-2 border-gray-200 rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow">
                     <Link to={`/product/${item.id}`}>
                       <img
-                        className="rounded-2xl w-full h-80 p-2 hover:scale-110 transition-transform"
+                        className="rounded-2xl w-full h-64 sm:h-72 md:h-80 object-cover p-2 hover:scale-105 transition-transform duration-300"
                         src={item.image}
                         onError={(e) => {
                           e.target.onerror = null;
