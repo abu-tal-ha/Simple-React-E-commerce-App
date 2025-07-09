@@ -11,11 +11,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         <div className="font-bold">
           <Link to="/">
-            <img
-              src="/src/assets/images/logo.png"
-              className="w-32 h-9 object-contain"
-              alt="Logo"
-            />
+            <h1 className="text-2xl font-extrabold tracking-wide text-pink-600 drop-shadow-md uppercase">
+              Shop<span className="text-gray-800">Zone</span>
+            </h1>
+
             {/* <img
               src="/src/assets/images/logo.png"
               className="w-32 h-9 object-contain"
