@@ -16,6 +16,11 @@ const Navbar = () => {
               className="w-32 h-9 object-contain"
               alt="Logo"
             />
+            {/* <img
+              src="/src/assets/images/logo.png"
+              className="w-32 h-9 object-contain"
+              alt="Logo"
+            /> */}
           </Link>
         </div>
         <div className="space-x-6 flex items-center text-sm font-medium">
