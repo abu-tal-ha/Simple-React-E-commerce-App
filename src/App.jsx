@@ -13,7 +13,8 @@ import Contact from "./pages/Contact";
 const App = () => {
   return (
     <div className="min-h-[calc(100vh-306px)]">
-      <Navbar />
+      <Navbar clearSearch={() => setSearchkey("")} />
+
       {/* <HeroSection /> */}
       <Routes>
         <Route path="/" element={<Home />} />
